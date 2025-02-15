@@ -5,8 +5,8 @@ import { NavLink } from "react-router";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../../components/langSwitcher/lang";
 import { CiSearch } from "react-icons/ci";
-import { ThemeContext } from "../../ToggeBtn/ThemeContext"; 
-import ThemeToggle from "../../ThemeToggle/ThemeToggle"; 
+import { ThemeContext } from "../../ToggeBtn/ThemeContext";
+import ThemeToggle from "../../ThemeToggle/ThemeToggle";
 
 const Home = () => {
     const { t, i18n } = useTranslation();
